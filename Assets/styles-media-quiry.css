@@ -1,0 +1,154 @@
+/* Tablet mode (between 768px and 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container,
+    .JV-container,
+    .feature-container,
+    .why-us-container,
+    .serve-container,
+    .partners-container,
+    .collab-container,
+    .media-container,
+    .contact-container {
+        margin: 0 5rem;
+    }
+    .JV-title {
+        font-size: 40px;
+    }
+    .JV-container h1 {
+        font-size: 50px;
+        padding-left: 0;
+    }
+    .text-semi-medium {
+        font-size: 20px;
+    }
+    .JV-features,
+    .JV-why-us,
+    .JV-serve,
+    .JV-partners,
+    .JV-collaborators,
+    .JV-contact {
+        padding: 40px 0;
+    }
+    .feature-row,
+    .why-us-row,
+    .serve-row {
+        flex-direction: column;
+    }
+    .feature-col,
+    .why-us-col,
+    .serve-col {
+        width: 100%;
+        padding: 0;
+    }
+    .feature-box,
+    .serve-service-box,
+    .logo-box {
+        width: 100%;
+    }
+    .JV-title,
+    .why-us-title,
+    .JV-serve-title,
+    .JV-partners-title,
+    .why-us-col-title {
+        font-size: 40px;
+    }
+    .why-us-subtitle {
+        font-size: 18px;
+    }
+    .collab-container {
+        margin: 0 2rem;
+    }
+    .collab-col {
+        width: 50%;
+    }
+}
+
+/* Mobile mode (max-width: 767px) */
+@media (max-width: 767px) {
+    .container,
+    .JV-container,
+    .feature-container,
+    .why-us-container,
+    .serve-container,
+    .partners-container,
+    .collab-container,
+    .media-container,
+    .contact-container {
+        margin: 0 1rem;
+    }
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
+    .JV-title {
+        font-size: 30px;
+    }
+    .JV-container h1 {
+        font-size: 30px;
+        padding-left: 0;
+    }
+    .text-semi-medium {
+        font-size: 16px;
+    }
+    .JV-features,
+    .JV-why-us,
+    .JV-serve,
+    .JV-partners,
+    .JV-collaborators,
+    .JV-contact {
+        padding: 20px 0;
+    }
+    .feature-row,
+    .why-us-row,
+    .serve-row {
+        flex-direction: column;
+    }
+    .feature-col,
+    .why-us-col,
+    .serve-col {
+        width: 100%;
+        padding: 0;
+    }
+    .feature-box,
+    .serve-service-box,
+    .logo-box {
+        width: 100%;
+    }
+    .JV-title,
+    .why-us-title,
+    .JV-serve-title,
+    .JV-partners-title,
+    .why-us-col-title {
+        font-size: 30px;
+    }
+    .why-us-subtitle {
+        font-size: 14px;
+    }
+    .collab-container {
+        margin: 0 1rem;
+    }
+    .collab-col {
+        width: 100%;
+    }
+    .contact-row {
+        flex-direction: column;
+    }
+    .bg-blue {
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+    }
+    .contact-form .col {
+        padding: 20px;
+    }
+    .form-group input {
+        font-size: medium;
+    }
+    .contact-form .btn {
+        font-size: 16px;
+    }
+}
